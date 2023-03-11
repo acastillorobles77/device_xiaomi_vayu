@@ -18,7 +18,8 @@ property Name is called. -->
     <PerfConfigs>
 
                 <!--Vendor Properties -->
-                <Prop Name="vendor.iop.enable_uxe" Value="1" />
+                <Prop Name="vendor.iop.enable_iop" Value="0" />
+                <Prop Name="vendor.iop.enable_uxe" Value="0" />
                 <Prop Name="vendor.debug.enable.lm" Value="true" />
                 <Prop Name="vendor.perf.iop_v3.enable" Value="true" />
                 <Prop Name="vendor.perf.iop_v3.enable.debug" Value="false" />
@@ -30,7 +31,6 @@ property Name is called. -->
                 <Prop Name="vendor.perf.gestureflingboost.enable" Value="true" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="ro.lmk.enable_userspace_lmk" Value="false" />
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="128" />
                 <Prop Name="ro.lmk.kill_heaviest_task_dup" Value="true" />
                 <Prop Name="ro.lmk.kill_timeout_ms_dup" Value="100" />
                 <Prop Name="ro.lmk.thrashing_threshold" Value="10" />
