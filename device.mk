@@ -99,7 +99,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
-    GCamGOPrebuilt-V2 \
+#   GCamGOPrebuilt-V2 \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
@@ -146,7 +146,7 @@ endif
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-impl \
+#   android.hardware.graphics.composer@2.4-impl \
     android.hardware.graphics.composer@2.4-service \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
@@ -155,7 +155,7 @@ PRODUCT_PACKAGES += \
     gralloc.msmnile \
     hwcomposer.msmnile \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
+#   libdisplayconfig.qti.vendor \
     libsdmcore \
     libsdmutils \
     libtinyxml \
@@ -284,7 +284,7 @@ PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-hidl-wrapper-prd \
-    qti_telephony_hidl_wrapper-prd.xml \
+#   qti_telephony_hidl_wrapper-prd.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     telephony-ext
@@ -405,7 +405,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.2.vendor \
     libjson \
-    libjson.vendor \
+#   libjson.vendor \
     libprotobuf-cpp-full \
     librmnetctl
 
