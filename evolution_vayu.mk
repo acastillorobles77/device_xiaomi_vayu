@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common ArrowOS configurations
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
+# Optionals
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := evolution_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
