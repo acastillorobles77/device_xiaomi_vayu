@@ -32,7 +32,3 @@ BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.8.0.SJUMIX
 # ArrowOS additions
 DEVICE_MAINTAINER := Angel Castillo
 
-# Repainter integration
-PRODUCT_PACKAGES += \
-		RepainterServicePriv
-
